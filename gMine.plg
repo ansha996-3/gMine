@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: gMine - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/gMine.res" /d "NDEBUG" /d "_AFXDLL" "C:\Documents and Settings\xumm\桌面\gMine\gMine.rc"" 
+Creating temporary file "C:\DOCUME~1\xumm\LOCALS~1\Temp\RSP22D.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/gMine.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\xumm\桌面\gMine\gMine.cpp"
+"C:\Documents and Settings\xumm\桌面\gMine\gMineDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\xumm\LOCALS~1\Temp\RSP22D.tmp" 
+Creating temporary file "C:\DOCUME~1\xumm\LOCALS~1\Temp\RSP22E.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/gMine.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\xumm\桌面\gMine\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\xumm\LOCALS~1\Temp\RSP22E.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:no /pdb:"Release/gMine.pdb" /machine:I386 /out:"Release/gMine.exe"  ".\Release\gMine.obj" ".\Release\gMineDlg.obj" ".\Release\StdAfx.obj" ".\Release\gMine.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+gMine.cpp
+gMineDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+gMine.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
